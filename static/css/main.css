@@ -2,7 +2,11 @@ body,
 html {
   margin: 0;
   font-family: sans-serif;
-  background-color: lightblue;
+  background-image: linear-gradient(
+    to right,
+    rgb(114, 236, 240),
+    rgb(10, 122, 124)
+  );
 }
 
 .content {
@@ -36,4 +40,11 @@ td {
 
 #content {
   width: 70%;
+}
+
+.submit-btn {
+  background-color: beige;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 10px;
 }
